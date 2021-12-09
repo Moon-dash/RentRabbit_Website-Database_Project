@@ -1,0 +1,29 @@
+.login-container  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: #1c3334; */
+  }
+
+  .login {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 40px;
+    border-radius: 25px;
+    height: 300px;
+    width: max-content;
+    background-color: var(--div-background);
+    border: 3px solid;
+    color:black;
+  }
+
+  .inputs{
+    padding-bottom: 0px;
+  }
+
+  .err-msg {
+    color: red;
+    text-align: center;
+  }

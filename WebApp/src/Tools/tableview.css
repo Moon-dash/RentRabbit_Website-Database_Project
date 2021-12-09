@@ -1,0 +1,83 @@
+.icon {
+color: var(--text-color);
+padding: 15px;
+height: 30px;
+width: 30px;
+cursor: pointer;
+transition: all 0.5s ease;
+color: white;
+}
+
+.search-div   {
+margin: 20px;
+height: 50px;
+background-color: var(--header);
+width: fit-content;
+display: flex;
+justify-content: start;
+border-radius: 13px;
+flex-direction: row;
+}
+
+.input  {
+width: 0px;
+height: 25px;
+background-color: transparent;
+border: 0px;
+margin-top: 12px;
+margin-right: 0px;
+color: black;
+outline: none;
+transition: all 1s ease;
+}
+
+.input:hover    {
+background-color: var(--background);
+color:var(--secondary-text-color);
+}
+
+.input.active   {
+width: 200px;
+margin-right: 20px;
+}
+
+.results-container {
+display: flex;
+flex-direction: column;
+}
+
+.filter-div   {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 930px;
+}
+
+.sort-div   {
+    display: flex;
+    flex-direction: row;
+    margin: 35px;
+}
+
+.sort-label {
+    padding: 5px;
+}
+
+
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.pagination > * {
+  cursor: pointer;
+}
+
+.pg-active {
+  border-radius: 50%;
+  background-color: var(--header);
+  height: 25px;
+  width: 25px;
+  color: white;
+}

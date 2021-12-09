@@ -1,0 +1,44 @@
+.addtool{
+    text-decoration: none;
+    font-size: medium;
+    color: white;
+    width: fit-content;
+    border-radius: 10px;
+    text-align: center;
+    margin: 30px;
+    border: none;
+    background-color: var(--header);
+    transition-duration: 0.3s;
+    height: 50px;
+}
+
+.addtool> * {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.listed-tools   {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.listed-tool-div    {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tool   {
+    padding: 20px;
+}
+
+.label  {
+    font-size: 18px;
+    margin: 30px;
+    padding: 15px;
+    color: black;
+    width: 100px;
+}
+

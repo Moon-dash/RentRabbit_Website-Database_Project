@@ -1,0 +1,113 @@
+.tool-container {
+    height: fit-content;
+    padding: 20px;
+}
+
+.tool-div   {
+    height: 20px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid var(--secondary-text-color);
+    border-radius: 30px;
+}
+
+.tool-div:hover   {
+    background-color: var(--header);
+}
+
+.icon-chevron  {
+    height: 20px;
+}
+
+.icon-heart {
+    color: black;
+}
+
+.icon-heart-active  {
+    color: red;
+}
+
+.hide{
+    display: none;
+}
+
+.expand {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.expandDiv  {
+    height: fit-content;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.buy-btn{
+    background-color:var(--header);
+    color: white;
+    justify-content: center;
+    display: flex;
+    height: max-content;
+    margin-top: 30px;
+    width: 100px;
+    margin-left: 90px;
+}
+
+.buy-btn:hover{
+    background-color: tomato;
+}
+
+
+.rent-btn{
+    background-color:var(--header);
+    color: white;
+    justify-content: center;
+    display: flex;
+    height: max-content;
+    margin-top: 3px;
+    width: 100px;
+    margin-left: 90px;
+}
+
+.rent-btn:hover{
+    background-color: tomato;
+}
+
+.tool-expanded  {
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-div   {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mid-div  {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-div{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: right;
+}

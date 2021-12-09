@@ -1,0 +1,9 @@
+.favTools   {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fav-title{
+      margin: 40px;
+}
